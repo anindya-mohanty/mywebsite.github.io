@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title </title></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <div class="leftside">
+                <div class="navlink active-navlink">
+                     <a href="index.html">Home</a>
+                </div>
+                <div class="navlink">
+                     <a href="about.html">About</a>
+                </div>
+            </div>
+
+
+            <div class="rightside">
+                <div class="brand">
+                     <div>ANINDYA MOHANTY</div>
+                </div>
+            </div>    
+        </div>
+        <div class="content-wrapper">
+            <div class="portfolio-items-wrapper">
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio1.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logo/logo1.png" alt="">
+                        </div>
+
+                        <div class="subtitle">
+                            Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains
+                        
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio2.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logo/logo2.png" alt="">
+                        </div>
+
+                        <div class="subtitle">
+                            Content is fire and Social Media is Gasoline.
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio3.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logo/logo3.png" alt="">
+                        </div>
+
+                        <div class="subtitle">
+                            The joy of coding Python should be in seeing short, concise, readable classes that express a lot of action in a small amount of clear code not in reams of trivial code that bores the reader to death.
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio4.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logo/logo4.png" alt="">
+                        </div>
+
+                        <div class="subtitle">
+                            Code is read more than it is written
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio5.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logo/logo5.png" alt="">
+                        </div>
+
+                        <div class="subtitle">
+                            If debugging is the process of removing software bugs, then programming must be the process of putting them in
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio6.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logo/logo6.png" alt="">
+                        </div>
+
+                        <div class="subtitle">
+                            The man who asks a question is a fool for a minute, the man who does not ask is a fool for life
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio7.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logo/logo7.png" alt="">
+                        </div>
+
+                        <div class="subtitle">
+                            Money and success don't change people; they merely amplify what is already there
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio8.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logo/logo8.png" alt="">
+                        </div>
+
+                        <div class="subtitle">
+                            Life is short. Live it. Fear is natural. Face it. Memory is powerful. Use it.
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio9.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logo/logo9.png" alt="">
+                        </div>
+
+                        <div class="subtitle">
+                            If you think lifting is dangerous, try being weak. Being weak is dangerous.
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+     </div>
+</body>
+<script>
+    const portfolioITEMS = document.querySelectorAll('.portfolio-item-wrapper')
+    portfolioITEMS.forEach(portfolioITEM => {
+        portfolioITEM.addEventListener('mouseover', () =>  {  
+            portfolioITEM.childNodes[1].classList.add('img-darken');
+
+        })
+
+        portfolioITEM.addEventListener('mouseout', () =>  {  
+            portfolioITEM.childNodes[1].classList.remove('img-darken');
+
+        })
+    })
+</script>
+</html> 
