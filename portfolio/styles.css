@@ -1,0 +1,202 @@
+/*Main styles*/
+body{
+    font-family: "Ranchers",sans-serif;
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.container-about {
+    display: grid;
+    grid-template-columns: 2r;
+}
+
+/*nav styles*/
+/*index page navigation*/
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+.leftside {
+    display: flex;
+}
+
+.navigation > .leftside > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.navlink {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+
+}
+
+.navlink a {
+    color: #8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navlink:hover {
+    border-bottom: 1px solid black;
+}
+
+.navlink a:hover {
+    color:black;
+}
+
+.active-navlink {
+    border-bottom: 1px solid blue;
+}
+
+.active-navlink a {
+    color: blue !important;
+}
+
+/*about page navigation*/
+
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left{
+    display: flex;
+}
+
+
+.navigate> .left > div {
+    margin-right: 40px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.navigate> .right > div {
+    margin-right: 40px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+.navlink-about {
+    height: px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+
+}
+
+.navlink-about a {
+    color: lightskyblue;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navlink-about:hover {
+    border-bottom: 1px solid black;
+}
+
+.navlink-about a:hover {
+    color:black;
+}
+
+.active-navlinkabout {
+    border-bottom: 1px solid lightseagreen;
+}
+
+.active-navlinkabout a {
+    color: lightseagreen !important;
+}
+
+
+/*portfolio styles*/
+
+.portfolio-items-wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper{
+    position: relative;
+
+}
+.portfolio-img-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo-wrapper img{
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color:lightseagreen;
+
+}
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+/*about page*/
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-img-wrapper img {
+    width: 350px;
+    padding: 0px;
+    letter-spacing: 0px;
+}
+
+.profile-content-wrapper {
+    padding: 0px;
+    font-size: 20px;
+}
+
+
+.profile-content-wrapper h1{
+    color:lightsalmon;
+}
+                                                                                                        
+
+
+
+
+
+
+
+
